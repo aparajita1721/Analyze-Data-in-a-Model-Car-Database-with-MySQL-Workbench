@@ -18,22 +18,29 @@ We used SQL queries on MySQL Workbench to perform exploratory data analysis. To 
 
 ### Insights and Suggestions
 **General Insights-**
-- In the initial year of 2003, a total of 36,439 sales transactions were recorded. This figure experienced a decline, reaching 19,590 sales in 2005. (![Yearly Sales](https://github.com/aparajita1721/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/143907878/e2830b0e-adff-471d-bc06-2c6fc9d69a5f)
-)
+- In the initial year of 2003, a total of 36,439 sales transactions were recorded. This figure experienced a decline, reaching 19,590 sales in 2005.
 
-- The preponderance of clients hailed from the United States, and it is noteworthy that this nation yielded the highest revenue, followed by Spain and France. ![Revenue](https://github.com/aparajita1721/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/143907878/a091992e-0556-4038-91a1-21cccf2e576b)
+![Yearly Sales](https://github.com/aparajita1721/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/143907878/e2830b0e-adff-471d-bc06-2c6fc9d69a5f)
 
 
-- Interestingly, six countries—Poland, Portugal, Netherlands, South Africa, Russia, and Israel—did not contribute to revenue generation, while Hong Kong and Ireland generated the least revenue. ![Least revenue](https://github.com/aparajita1721/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/143907878/c261d86a-5782-45d1-8ca6-e61ac7a43e15)
+- The preponderance of clients hailed from the United States, and it is noteworthy that this nation yielded the highest revenue, followed by Spain and France.
 
-- During this period, six clients canceled their orders, with one prominent client opting for a more favorable offer from a competitor. ![customer status](https://github.com/aparajita1721/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/143907878/fd97f953-7a1c-4c33-a589-24dab8dc5ecb)
+![Revenue](https://github.com/aparajita1721/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/143907878/a091992e-0556-4038-91a1-21cccf2e576b)
+
+
+- Interestingly, six countries—Poland, Portugal, Netherlands, South Africa, Russia, and Israel—did not contribute to revenue generation, while Hong Kong and Ireland generated the least revenue.
+
+![Least revenue](https://github.com/aparajita1721/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/143907878/c261d86a-5782-45d1-8ca6-e61ac7a43e15)
+
+- During this period, six clients canceled their orders, with one prominent client opting for a more favorable offer from a competitor.
+
+![customer status](https://github.com/aparajita1721/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/143907878/fd97f953-7a1c-4c33-a589-24dab8dc5ecb)
 ![cancelled orders](https://github.com/aparajita1721/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/143907878/8666e062-63d2-4279-b576-199c9850ba96)
 ![product codes](https://github.com/aparajita1721/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/143907878/73c43b13-718f-4b94-aba0-3726eb043e7a)
-![suggested pricing](https://github.com/aparajita1721/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/143907878/6eca04ef-8d1b-4c91-9a71-36007fb9f6fb)
-
-
 
 - To maintain competitiveness, a 5% price reduction is proposed for select products while ensuring continued profitability.
+
+![suggested pricing](https://github.com/aparajita1721/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/143907878/6eca04ef-8d1b-4c91-9a71-36007fb9f6fb)
 
 **Problem-specific Insights**
 1. Significantly, the profit percentage exhibited minimal variance between the least and most popular products. Price of the product also did not seem to influence the popularity of the product.
