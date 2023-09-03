@@ -1,5 +1,5 @@
 # Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench
-## Performing exploratory data analysis on the database using SQL queries
+## Performing Exploratory Data Analysis on the Database using SQL Queries
 ### Problem:-
 To analyze data in a relational database using SQL queries with the goal of supporting inventory-related business decisions that lead to the closure of a storage facility.
 ### Questions 
