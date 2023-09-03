@@ -12,11 +12,9 @@ To analyze data in a relational database using SQL queries with the goal of supp
 6) What is profit percentage earned in the products that were sold the most?
 7) What is profit percentage earned in the products that were sold the least?
 
-### Solution
-We started with finding the total sales in each year for all the products. Investigated which countries are the most profitable and which countries have very low scope of sales.
-We checked the quantities of the products that were ordered the most(top 10), their stock availabiltity, price for each, buy price, MSRP as well as profit percentage earned in each of the products.
-we also checked the amount sales shipped by each of the warehouse
-we checked if pricing was an issue with the products that were least popular and if customer service could be factored into it
-some major client seemed to have cancelled their order as they found a better offer, another client also had budget issues.
+### Method
+We used SQL queries on MySQL Workbench to perform exploratory data analysis. To begin with, we with imported the database using the SQL script linked here-     and studied the schema using the EER (Extended Entity-Relationship diagram). Further, we identified the tables and fields that could provide relavent informations to the questions asked above and support our insights.
+
 
 ### Insights
+
