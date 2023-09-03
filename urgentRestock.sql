@@ -1,4 +1,3 @@
-
 # needs to be restocked on an urgent basis
 SELECT
     products.productName,
