@@ -3,7 +3,6 @@ SELECT
     products.productName,
     products.productVendor,
     products.quantityInStock,
-    (products.quantityInStock * 0.7) AS reduction_stock,
     SUM(orderdetails.quantityOrdered) AS totalQuantityOrdered,
     (products.quantityInStock - COALESCE(SUM(orderdetails.quantityOrdered), 0)) AS difference
 FROM products
