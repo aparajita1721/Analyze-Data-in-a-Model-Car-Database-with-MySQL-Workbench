@@ -29,11 +29,8 @@ We used SQL queries on MySQL Workbench to perform exploratory data analysis. To 
 - To maintain competitiveness, a 5% price reduction is proposed for select products while ensuring continued profitability.
 
 **Problem-specific Insights**
-1. Significantly, the profit percentage exhibited minimal variance between the least and most popular products. 
-Inventory primarily resides in warehouses A, B, and C, with warehouses A and B serving as primary shipping hubs, followed by warehouses C and D.
-
-2. To address the significant disparity between available stock and ordered quantities over the past three years, a reduction in stock levels (20%-30%) is suggested for the 68 listed products that may potentially become obsolete with time. However, precise numbers should be discussed with the supplier.
-
-3. Approximately 24 products are maintaining optimal stock levels for received orders, while five products require restocking in the near term, and 11 products demand immediate replenishment to meet market demands. As the demand for stocks of each products is different from the other, it won't be feasible to reduce the stocks for each of the products by 5%.
-
-4. Taking into account that we have to reduce a lot of extra stock and close down one storage place, we can move the orders from warehouse D to warehouse C. This will help us use our space better and close the storage place smoothly.
+1. Significantly, the profit percentage exhibited minimal variance between the least and most popular products. Price of the product also did not seem to influence the popularity of the product.
+2.  Inventory primarily resides in warehouses A, B, and C, with warehouses A and B serving as primary shipping hubs, followed by warehouses C and D.
+3. To address the significant disparity between available stock and ordered quantities over the past three years, a reduction in stock levels (20%-30%) is suggested for the 68 listed products that may potentially become obsolete with time. However, precise numbers should be discussed with the supplier.
+4. Approximately 24 products are maintaining optimal stock levels for received orders, while five products require restocking in the near term, and 11 products demand immediate replenishment to meet market demands. As the demand for stocks of each products is different from the other, it won't be feasible to reduce the stocks for each of the products by 5%.
+5. Taking into account that we have to reduce a lot of extra stock and close down one storage place, we can move the orders from warehouse D to warehouse C. This will help us use our space better and close the storage place smoothly.
