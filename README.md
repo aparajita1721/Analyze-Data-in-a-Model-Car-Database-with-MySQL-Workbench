@@ -48,6 +48,7 @@ We begin this project with analyzing historical sales data, identifying trends, 
 
 ![least ordered products' profit percentage](https://github.com/aparajita1721/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/143907878/d357dd16-9ca9-405f-860f-82264d901122)
 ![most ordered products' profit percentage](https://github.com/aparajita1721/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/143907878/6c771de2-0ab6-4ea6-a494-021c108f9830)
+2. We also observed that a product named had not been sold by even a unit, On further investigating the product we observed that this product had not been priced yet. So the reason why it didn't sell could be that it's newly launched product or maybe there has been error with the data entry.
 
 2.  Inventory primarily resides in warehouses A, B, and C, with warehouses A and B serving as primary shipping hubs, followed by warehouses C and D.
 
@@ -61,8 +62,10 @@ We begin this project with analyzing historical sales data, identifying trends, 
 
 4. Approximately 24 products are maintaining optimal stock levels for received orders, while five products require restocking in the near term, and 11 products demand immediate replenishment to meet market demands. As the demand for stocks of each products is different from the other, it won't be feasible to reduce the stocks for each of the products by 5%.
 
-![top 10 optimally stocked products](https://github.com/aparajita1721/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/143907878/818e5832-d81f-4191-a63f-e5eca06a05df)
-![products that need to be restocked soon](https://github.com/aparajita1721/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/143907878/16fc5883-1daa-4ea7-839b-ae769dde3275)
-![products that need to be stocked on an urgent basis](https://github.com/aparajita1721/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/143907878/55a22156-0dee-456b-b509-f533422ede06)
+![optimum stocks-total 24](https://github.com/aparajita1721/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/143907878/6decb430-c762-429d-ac7f-ec312d1fb362)
+![restock](https://github.com/aparajita1721/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/143907878/5de55126-8d4e-4845-9420-409dc83cd72c)
+![urgent restock](https://github.com/aparajita1721/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/143907878/7b1f0f8e-505a-4fdf-a910-e634de5f37b9)
+
+
 
 5. Taking into account that we have to reduce a lot of extra stock and close down one storage place, we can move the orders from warehouse D to warehouse C. This will help us use our space better and close the storage place smoothly.
