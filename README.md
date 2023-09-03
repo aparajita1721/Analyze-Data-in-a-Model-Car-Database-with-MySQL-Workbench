@@ -48,7 +48,8 @@ We begin this project with analyzing historical sales data, identifying trends, 
 
 ![least ordered products' profit percentage](https://github.com/aparajita1721/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/143907878/d357dd16-9ca9-405f-860f-82264d901122)
 ![most ordered products' profit percentage](https://github.com/aparajita1721/Analyze-Data-in-a-Model-Car-Database-with-MySQL-Workbench/assets/143907878/6c771de2-0ab6-4ea6-a494-021c108f9830)
-2. We also observed that a product named had not been sold by even a unit, On further investigating the product we observed that this product had not been priced yet. So the reason why it didn't sell could be that it's newly launched product or maybe there has been error with the data entry.
+
+2. We also observed that a product named 1985 Toyota Supra (product code- S18_3233) had not been sold at all, On further investigating the product we observed that this product had not been priced yet. So the reason why it didn't sell could be that it's newly launched product or maybe there has been an error with the data entry.
 
 2.  Inventory primarily resides in warehouses A, B, and C, with warehouses A and B serving as primary shipping hubs, followed by warehouses C and D.
 
