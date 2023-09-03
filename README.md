@@ -13,7 +13,7 @@ To analyze data in a relational database using SQL queries with the goal of supp
 7) What is profit percentage earned in the products that were sold the least?
 
 ### Method
-We used SQL queries on MySQL Workbench to perform exploratory data analysis. To begin with, we with imported the database using the SQL script](mintclassics_DB.sql) and studied the schema using the EER (Extended Entity-Relationship diagram). Further, we identified the tables and fields that could provide relavent informations to the questions asked above and support our insights. 
+We used SQL queries on MySQL Workbench to perform exploratory data analysis. To begin with, we with imported the database using the SQL script linked here- [mintclassics DB](Kk6HcEYrS-23P-RaCeFG2Q_8cc95a70f07644cc9cba5af99ad5b1f1_mintclassicsDB.sql) and studied the schema using the EER (Extended Entity-Relationship diagram). Further, we identified the tables and fields that could provide relavent informations to the questions asked above and support our insights. 
 We begin this project with analyzing historical sales data, identifying trends, and assessing stock levels. By reallocating orders, optimizing inventory, and considering price adjustments, the aim was to enhance operational efficiency, reduce costs, and maximize profitability while ensuring product availability and customer satisfaction. This approach aligns with modern supply chain principles and business management.
 
 
